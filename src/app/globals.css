@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.all{
+  background: wheat;
+  width: 100%;
+  height: 100dvh;
+  font-weight: 500;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar{
+  background: rgb(174, 33, 28);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: xx-large;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav .l1:hover{
+  color: wheat;
+}
+.nav .l2:hover{
+  color: wheat;
+}
+.nav .l3:hover{
+  color: wheat;
+}
+@media (max-width:768px) {
+  .navbar{
+    font-size: medium;
+  }
+}
